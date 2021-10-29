@@ -41,7 +41,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from ginkgo device
-$(call inherit-product, device/xiaomi/ginkgo/device-ginkgo.mk)
+$(call inherit-product, device/xiaomi/ginkgo/device.mk)
 $(call inherit-product, device/xiaomi/ginkgo/device-hidl.mk)
 
 # b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
